@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Get help with FieldGuidance, the agricultural GPS guidance and cultivation planning app for iPhone and iPad.">
+  <meta name="robots" content="index, follow">
+  <title>Support | FieldGuidance</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f9f6;
+      --surface: #fff;
+      --text: #203028;
+      --muted: #59665e;
+      --accent: #286343;
+      --border: #dce5dd;
+      --highlight: #ebf3ed;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131a16;
+        --surface: #1b251f;
+        --text: #e7efe9;
+        --muted: #b4c5ba;
+        --accent: #8ac7a0;
+        --border: #34463b;
+        --highlight: #25372c;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page { width: min(100% - 40px, 800px); margin: 0 auto; }
+    header { border-bottom: 1px solid var(--border); }
+    .masthead { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 22px 0; }
+    .brand { display: inline-flex; gap: 11px; align-items: center; text-decoration: none; font-size: 17px; font-weight: 750; letter-spacing: -.03em; color: var(--text); }
+    .logo { display: inline-grid; place-items: center; width: 31px; height: 31px; border-radius: 9px; background: var(--accent); color: var(--surface); font-size: 18px; font-weight: 700; line-height: 1; }
+    .header-label { font-size: 13px; color: var(--muted); white-space: nowrap; }
+    main { padding: 64px 0 88px; }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 12px; }
+    h1 { font-size: clamp(34px, 7vw, 50px); line-height: 1.15; letter-spacing: -.055em; margin: 0 0 15px; }
+    .intro { max-width: 690px; font-size: 18px; line-height: 1.65; color: var(--muted); margin: 0; }
+    .content { margin-top: 52px; }
+    section { padding: 25px 0 23px; border-top: 1px solid var(--border); }
+    h2 { font-size: 21px; line-height: 1.35; letter-spacing: -.025em; margin: 0 0 15px; }
+    h3 { font-size: 16px; line-height: 1.4; margin: 22px 0 6px; }
+    p { margin: 0 0 15px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 23px; margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    strong { font-weight: 650; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+    .contact { background: var(--highlight); padding: 22px 24px; border-radius: 12px; border: 1px solid var(--border); }
+    .contact h2 { margin-bottom: 8px; }
+    .contact p { margin: 0 0 12px; }
+    .contact p:last-child { margin-bottom: 0; }
+    .placeholder { font-style: italic; }
+    .note { color: var(--muted); font-size: 14px; }
+    footer { border-top: 1px solid var(--border); padding: 26px 0 40px; font-size: 13px; color: var(--muted); }
+    .footer-content { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; }
+    @media (max-width: 520px) {
+      .page { width: min(100% - 32px, 800px); }
+      main { padding: 43px 0 65px; }
+      .content { margin-top: 39px; }
+      section { padding: 22px 0; }
+      .header-label { display: none; }
+    }
+    @media print {
+      :root { color-scheme: light; --bg: #fff; --surface: #fff; --text: #000; --muted: #333; --accent: #23573b; --border: #ccc; --highlight: #fff; }
+      body { background: #fff; font-size: 11pt; }
+      .page { width: 100%; max-width: none; }
+      main { padding: 20px 0; }
+      section { break-inside: avoid; }
+      header, footer { border: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="page masthead">
+      <div class="brand" aria-label="FieldGuidance">
+        <span class="logo" aria-hidden="true">F</span>
+        <span>FieldGuidance</span>
+      </div>
+      <span class="header-label">Agricultural GPS guidance &amp; field planning</span>
+    </div>
+  </header>
+
+  <main class="page" id="main-content">
+    <div class="eyebrow">Help &amp; contact</div>
+    <h1>FieldGuidance Support</h1>
+    <p class="intro">Need help with field mapping, cultivation planning, or GPS guidance? We're here to help you get the most out of FieldGuidance on your iPhone or iPad.</p>
+
+    <div class="content">
+      <div class="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Support</h2>
+        <p>For questions, bug reports, or feature suggestions, contact:</p>
+        <p><strong>Email:</strong> <span class="placeholder">me@joacimsigfridsson.se</span></p>
+        <p class="note">When reporting a problem, it helps to include your device model, iOS or iPadOS version, FieldGuidance app version, and a brief description of what happened. Share screenshots only if you're comfortable doing so.</p>
+      </div>
+
+      <section aria-labelledby="topics">
+        <h2 id="topics">Common Support Topics</h2>
+        <h3>GPS &amp; Location</h3>
+        <p>FieldGuidance uses device location services for live guidance, field boundary recording, and fieldwork tracking. Check that location access is enabled in your device's Settings. GPS accuracy depends on device capabilities, reception, and operating conditions.</p>
+
+        <h3>Field Mapping</h3>
+        <p>Create field boundaries by drawing on a map, recording with GPS, or importing supported KML/KMZ files.</p>
+
+        <h3>Cultivation Planning</h3>
+        <p>Configure your implement dimensions and plan cultivation paths based on your field and intended working method.</p>
+
+        <h3>Data &amp; Backups</h3>
+        <p>Use the app's backup and restore tools to manage copies of your FieldGuidance information. Keep exported backups in a location you control.</p>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">Privacy</h2>
+        <p>Learn how FieldGuidance handles location data, field information, and app settings in our <a href="../">Privacy Policy</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="page footer-content">
+      <span>&copy; FieldGuidance &middot; Support</span>
+      <a href="../">Privacy Policy</a>
+    </div>
+  </footer>
+</body>
+</html>
